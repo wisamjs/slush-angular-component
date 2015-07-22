@@ -76,7 +76,7 @@ gulp.task('default', function (done) {
             file.basename = file.basename.replace(/component/,answers.moduleName);
         }))
         .pipe(conflict('./'))
-        .pipe(gulp.dest('./test'))
+        .pipe(gulp.dest('./'))
         .pipe(install())
         .on('end', function () {
           done();
