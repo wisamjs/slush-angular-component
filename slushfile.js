@@ -66,7 +66,7 @@ gulp.task('default', function (done) {
         directive: answers.componentName,
         controller: answers.capitalizedComponentName+'Controller',
         controllerAs: answers.componentName+'Controller',
-        service: answers.componentName+'service'
+        service: answers.componentName+'Service'
       };
 
 
