@@ -1,15 +1,20 @@
 # slush-angular-component
 
-A slush generator that generates an angular 1x component which consists of a:
+A slush generator that generates an Angular 1x component which consists of a:
 
-* directive
-* controller (with unit-tests)
-* service (with unit-tests)
-* template
+* Directive
+* Controller (with unit-tests)
+* Service (with unit-tests)
+* Template
 
 
 
 ### Usage
+
+Install:
+```bash
+npm install -g slush-angular-component
+```
 
 Create a new folder for your project:
 
