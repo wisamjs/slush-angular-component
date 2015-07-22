@@ -1,6 +1,6 @@
 'use strict';
 
-angular.module('<%= modules.directive %>',[])
+angular.module('<%= modules.directive %>', [])
 .directive('<%= components.directive %>', function(){
     return {
       restrict: 'E',
@@ -11,4 +11,4 @@ angular.module('<%= modules.directive %>',[])
       controllerAs: '<%= components.controllerAs %>',
       bindToController: true
     };
-})
+});

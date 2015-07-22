@@ -13,7 +13,7 @@ describe('<%= components.service %>', function () {
 
   it('should write more tests', function () {
     expect(false).to.eql(true);
-  })
+  });
 
   function registerService($provide) {
 
@@ -29,10 +29,8 @@ describe('<%= components.service %>', function () {
     var addMockService = registerService($provide);
   }
 
-  function initService(_ <%= components.service %>
-    _) {
-    <%= components.service %> = _ <%= components.service %>
-    _;
+  function initService(_<%= components.service %>_) {
+    <%= components.service %> = _<%= components.service %>_;
 
   }
 
